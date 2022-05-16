@@ -15,6 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Start()
     {
+        InvokeRepeating("AutoMove", 0,1);
        // transform.position += new Vector3(transform.position.x,
        //     transform.position.y,
        //     transform.position.z);
@@ -49,8 +50,21 @@ public class NewBehaviourScript : MonoBehaviour
         {
             transform.position += Vector3.right*Time.deltaTime;
         }
-
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CancelInvoke("AutoMove");
+        }
 
 
     }
+
+    public void AutoMove()
+    {
+        transform.position = new Vector3(
+            Random.Range(0, 5), 
+            0,
+            Random.Range(0, 5));
+        Debug.Log("Log");
+    }
+    
 }
