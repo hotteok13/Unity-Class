@@ -348,6 +348,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Class/Invoke Function/Script/NewBehaviourScript.cs"
 "Assets/Class/Invoke Function/Script/ObjectMove.cs"
+"Assets/Class/RayCast/Script/DataManager.cs"
 "Assets/Class/RayCast/Script/Revolution.cs"
 -langversion:9.0
 
