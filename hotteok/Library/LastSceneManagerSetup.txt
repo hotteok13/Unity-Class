@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Class/RayCast/Scene/RayCast Exemple.unity
+- path: Assets/Class/Instantiate/Instantiate.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
